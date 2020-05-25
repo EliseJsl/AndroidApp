@@ -17,7 +17,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="8dp"
             tools:text = "Toto titi"
-            android:id="@+id/ligne_name_textview" />
+            android:id="@+id/station_name_textview" />
 
     </LinearLayout>
 

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ListLignesActivity">
+    tools:context=".ListStationsActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/lignes_recyclerview"
+        android:id="@+id/stations_recyclerview"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         tools:ignore="MissingConstraints" />
