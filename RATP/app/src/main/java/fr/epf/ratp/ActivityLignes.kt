@@ -5,16 +5,23 @@ import androidx.room.Room
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import fr.epf.ratp.data.AppDatabase
 import fr.epf.ratp.data.LigneDao
+import fr.epf.ratp.data.StationDao
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 
-fun AppCompatActivity.dao(): LigneDao {
+fun AppCompatActivity.daoLigne(): LigneDao {
     val database = Room.databaseBuilder(this, AppDatabase::class.java,"RATP").build()
 
     return database.getLigneDao()
+}
+
+fun AppCompatActivity.daoStation(): StationDao{
+    val database = Room.databaseBuilder(this, AppDatabase::class.java,"RATP").build()
+
+    return database.getStationDao()
 }
 
 fun AppCompatActivity.retrofit(): Retrofit {
