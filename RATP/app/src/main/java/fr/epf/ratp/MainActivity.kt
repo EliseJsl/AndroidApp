@@ -16,6 +16,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ListLignesActivity::class.java)
             startActivity(intent)
         }
+
+        qrcode_button.setOnClickListener {
+            val intent = Intent(this, QRCodeActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 
 }
