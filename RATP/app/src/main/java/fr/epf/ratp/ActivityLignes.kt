@@ -3,9 +3,8 @@ package fr.epf.ratp
 import androidx.appcompat.app.AppCompatActivity
 import androidx.room.Room
 import com.facebook.stetho.okhttp3.StethoInterceptor
-import fr.epf.ratp.data.AppDatabase
-import fr.epf.ratp.data.LigneDao
-import fr.epf.ratp.data.StationDao
+import fr.epf.ratp.data.*
+
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -23,6 +22,17 @@ fun AppCompatActivity.daoStation(): StationDao{
 
     return database.getStationDao()
 }
+fun AppCompatActivity.daoSchedules(): ScheduleDao {
+    val database = Room.databaseBuilder(this, AppDatabase::class.java,"RATP").build()
+
+    return database.getScheduleDao()
+}
+
+fun AppCompatActivity.daoFavoris(): FavorisDao {
+    val database = Room.databaseBuilder(this, AppDatabase::class.java,"RATP").build()
+
+    return database.getFavorisDao()
+}
 
 fun AppCompatActivity.retrofit(): Retrofit {
 
@@ -32,7 +42,7 @@ fun AppCompatActivity.retrofit(): Retrofit {
 
     val client = OkHttpClient.Builder()
         .addInterceptor(httpLoggingInterceptor)
-        .addNetworkInterceptor(StethoInterceptor())   
+        .addNetworkInterceptor(StethoInterceptor())
         .build()
 
 

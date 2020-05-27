@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_synchro"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Synchro"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_favoris"
+        android:icon="@android:drawable/btn_star"
+        android:title="Favoris"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Préférences"
+        app:showAsAction="never" />
+</menu>

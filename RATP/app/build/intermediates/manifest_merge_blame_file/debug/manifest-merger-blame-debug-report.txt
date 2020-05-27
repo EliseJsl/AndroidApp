@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fr.epf.ratp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:5:5-22:19
+14        android:allowBackup="true"
+14-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.2.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\9075dbfaab39e40f8982b36dac1019b6\core-1.2.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:7:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:8:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:9:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:11:9-40
+23        <activity android:name="fr.epf.ratp.ListLignesActivity" />
+23-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:12:9-56
+23-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:12:19-53
+24        <activity android:name="fr.epf.ratp.DetailStationActivity" />
+24-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:13:9-59
+24-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:13:19-56
+25        <activity android:name="fr.epf.ratp.ListStationsActivity" />
+25-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:9-58
+25-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:19-55
+26        <activity android:name="fr.epf.ratp.MainActivity" >
+26-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:9-21:20
+26-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:19-47
+27            <intent-filter>
+27-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:17:17-69
+28-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:19:17-77
+30-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+35            android:name="androidx.room.MultiInstanceInvalidationService"
+35-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+36            android:directBootAware="true"
+36-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+37            android:exported="false" />
+37-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+38    </application>
+39
+40</manifest>
