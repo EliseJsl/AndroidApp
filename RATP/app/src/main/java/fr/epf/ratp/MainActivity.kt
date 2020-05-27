@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ListLignesActivity::class.java)
             startActivity(intent)
         }
+
+        list_favoris_button.setOnClickListener {
+            val intent = Intent(this, AddFavoris::class.java)
+            startActivity(intent)
+        }
     }
 
 }

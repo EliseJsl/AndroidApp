@@ -27,6 +27,34 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string msgid="3209159573327985035" name="copy">"Копировать"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Дополнительно"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"Кнопка трансляции"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"Кнопка трансляции. Устройство подключено."</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Кнопка трансляции. Устройство подключается."</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"Кнопка трансляции. Устройство отключено."</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"Поиск устройств…"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"Транслировать на устройство"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"Обложка"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"Трансляция экрана…"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"Закрыть"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"Скрыть"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"Отключить"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"Показать"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"Данных нет"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"Медиафайл не выбран"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"Приостановить"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"Воспроизвести"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"Остановить"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"Остановить трансляцию"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"Регулятор громкости"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"Система"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"Устройства"</string>
+    <string msgid="478774118347071097" name="not_set">"Не указано"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
     <string msgid="730395136688082741" name="search_menu_title">"Поиск"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ВКЛ."</string>
 </resources>

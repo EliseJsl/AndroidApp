@@ -27,6 +27,34 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"यांच्यासोबत शेअर करा"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> सह शेअर करा"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"कोलॅप्स करा"</string>
+    <string msgid="3209159573327985035" name="copy">"कॉपी करा"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"प्रगत"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"कास्ट बटण"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"कास्ट बटण. कनेक्ट केले आहे"</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"कास्ट बटण. कनेक्ट करत आहे"</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"कास्ट बटण. डिस्कनेक्ट केले आहे"</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"डिव्हाइस शोधत आहे"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"यावर कास्ट करा"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"अल्बम कला"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"स्क्रीन कास्‍ट करत आहे"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"बंद"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"कोलॅप्स"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"‍डिस्कनेक्ट करा"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"विस्तार करा"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"कोणतीही माहिती उपलब्ध नाही"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"मीडिया निवडला नाही"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"थांबवा"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"खेळा"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"थांबा"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"कास्ट करणे थांबवा"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"व्हॉल्यूम स्लायडर"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"सिस्टम"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"डिव्हाइस"</string>
+    <string msgid="478774118347071097" name="not_set">"सेट केलेले नाही"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" क्लिपबोर्डवर कॉपी केली."</string>
     <string msgid="730395136688082741" name="search_menu_title">"शोध"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"९९९+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"बंद"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"चालू"</string>
 </resources>

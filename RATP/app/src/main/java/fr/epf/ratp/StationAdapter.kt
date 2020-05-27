@@ -7,9 +7,17 @@ import androidx.recyclerview.widget.RecyclerView
 import fr.epf.ratp.model.Station
 import kotlinx.android.synthetic.main.station_view.view.*
 
-class StationAdapter(val stations: List<Station>) : RecyclerView.Adapter<StationAdapter.StationViewHolder>() {
-    class StationViewHolder(val stationView: View) : RecyclerView.ViewHolder(stationView)
+class StationAdapter(val stations: List<Station>, val listener: (Station) -> Unit) : RecyclerView.Adapter<StationAdapter.StationViewHolder>() {
+    class StationViewHolder(val stationView: View) : RecyclerView.ViewHolder(stationView){
+        fun bind(station: Station, listener: (Station) -> Unit) = with(stationView)
+        {
+            //ligneView.setOnClickListener {
+            //   listener.onItemClicked(ligne)
+            // }
 
+            stationView.setOnClickListener { listener(station)}
+        }
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StationViewHolder{
         val layoutInflater: LayoutInflater = LayoutInflater.from(parent.context)
@@ -22,5 +30,6 @@ class StationAdapter(val stations: List<Station>) : RecyclerView.Adapter<Station
     override fun onBindViewHolder(holder: StationViewHolder, position: Int) {
         val station = stations[position]
         holder.stationView.station_name_textview.text = station.name
+        holder.bind(station,listener)
     }
 }

@@ -1,5 +1,6 @@
 package fr.epf.ratp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -23,15 +24,24 @@ class ListStationsActivity : AppCompatActivity() {
 
         val code = intent.getStringExtra("CodeLigne")
 
+        runBlocking {
+
+            textView.text = code
+
+        }
+
         synchroServer(code)
+
+
 
     }
 
     override fun onResume() { // refresh
         super.onResume()
+        val code = intent.getStringExtra("CodeLigne")
         runBlocking {
             val stations = stationDao?.getStations()
-            stations_recyclerview.adapter = StationAdapter(stations ?: emptyList()) // !! veut dire je t'assure ca sera pas null
+            stations_recyclerview.adapter = StationAdapter(stations ?: emptyList()) { station : Station -> stationClicked(station,code) } // !! veut dire je t'assure ca sera pas null
             // ?: elvis operator : je te renvoie clients et si clients est vide je te renvoie une liste vide
         }
 
@@ -54,9 +64,22 @@ class ListStationsActivity : AppCompatActivity() {
                 }
             }
             val liststations = stationDao?.getStations()
-            stations_recyclerview.adapter = StationAdapter(liststations ?: emptyList())
+            stations_recyclerview.adapter = StationAdapter(liststations ?: emptyList()) { station : Station -> stationClicked(station,code) }
 
         }
 
     }
+
+
+
+
+    private fun stationClicked(station: Station, code: String?){
+        val intent = Intent(this, DetailStationActivity::class.java).apply{
+            putExtra("Name", station.name)
+            putExtra("Code", code)
+        }
+        startActivity(intent)
+    }
+
+
 }

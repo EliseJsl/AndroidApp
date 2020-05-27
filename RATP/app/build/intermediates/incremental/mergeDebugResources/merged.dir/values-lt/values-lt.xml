@@ -27,6 +27,34 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Bendrinti su"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant programą „<ns1:g id="APPLICATION_NAME">%s</ns1:g>“"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopijuoti"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Išplėstinė"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"Perdavimo mygtukas"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"Perdavimo mygtukas. Prisijungta"</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Perdavimo mygtukas. Prisijungiama"</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"Perdavimo mygtukas. Atsijungta"</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"Randami įrenginiai"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"Perduoti į"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"Albumo viršelis"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"Perduodamas ekranas"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"Uždaryti"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"Sutraukti"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"Atjungti"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"Išskleisti"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"Informacija nepasiekiama"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"Nepasirinkta jokios medijos"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"Pristabdyti"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"Leisti"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"Sustabdyti"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"Sustabdyti perdavimą"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"Garsumo šliaužiklis"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"Įrenginiai"</string>
+    <string msgid="478774118347071097" name="not_set">"Nenustatyta"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"Suvestinė „<ns1:g id="SUMMARY">%1$s</ns1:g>“ nukopijuota į iškarpinę."</string>
     <string msgid="730395136688082741" name="search_menu_title">"Ieškoti"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"IŠJUNGTA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ĮJUNGTA"</string>
 </resources>

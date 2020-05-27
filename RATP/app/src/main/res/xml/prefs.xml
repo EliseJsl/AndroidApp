@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        app:key="order_name"
+        app:title="Mode d'affichage des clients dans la liste"
+        app:summary="Ordre d'affichage du nom et du prénom des clients dans la liste"
+
+        />
+
+</PreferenceScreen>

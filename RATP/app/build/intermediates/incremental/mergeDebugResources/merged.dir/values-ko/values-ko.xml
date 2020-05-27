@@ -27,6 +27,34 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"공유 대상:"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>과(와) 공유"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"접기"</string>
+    <string msgid="3209159573327985035" name="copy">"복사"</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"고급"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"전송 버튼"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"전송 버튼. 연결됨"</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"전송 버튼. 연결 중"</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"전송 버튼. 연결 해제됨"</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"기기를 찾는 중"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"전송 대상"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"앨범아트"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"화면 전송 중"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"닫기"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"접기"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"연결 해제"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"펼치기"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"사용할 수 있는 정보 없음"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"선택된 미디어 없음"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"일시중지"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"재생"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"중지"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"전송 중지"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"볼륨 슬라이더"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"시스템"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"기기"</string>
+    <string msgid="478774118347071097" name="not_set">"설정되지 않음"</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\'<ns1:g id="SUMMARY">%1$s</ns1:g>\'이(가) 클립보드에 복사되었습니다."</string>
     <string msgid="730395136688082741" name="search_menu_title">"검색"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"사용 안함"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"사용"</string>
 </resources>
