@@ -57,4 +57,8 @@
     <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="5138405918326871307" name="v7_preference_off">"POIS KÄYTÖSTÄ"</string>
     <string msgid="27351710992731591" name="v7_preference_on">"KÄYTÖSSÄ"</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Valitettavasti Androidin kameran toimiinta häiriintyi. Joudut ehkä käynnistämään laitteen uudelleen.</string>
+    <string name="zxing_msg_default_status">Aseta viivakoodi neliön sisälle skannataksesi sen.</string>
 </resources>
