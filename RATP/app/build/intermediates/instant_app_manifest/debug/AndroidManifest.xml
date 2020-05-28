@@ -44,8 +44,13 @@
         <activity android:name="fr.epf.ratp.ListLignesActivity" />
         <activity android:name="fr.epf.ratp.DetailStationActivity" />
         <activity android:name="fr.epf.ratp.ListStationsActivity" />
+<<<<<<< HEAD
         <activity android:name="fr.epf.ratp.QRCodeActivity" />
         <activity android:name="fr.epf.ratp.AddFavoris" />
+=======
+        <activity android:name="fr.epf.ratp.AddFavoris" />
+        <activity android:name="fr.epf.ratp.QRCodeActivity" />
+>>>>>>> master
         <activity android:name="fr.epf.ratp.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

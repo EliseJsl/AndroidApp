@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.epf.ratp.data.FavorisDao
@@ -69,6 +70,7 @@ class DetailStationActivity : AppCompatActivity() {
 
             Log.d("EPF", "$schedules")
             scheduleDao?.deleteAll()
+
             if (schedules != null) {
                 schedules.result.schedules.map{
                     val schedule = Schedule(0, it.message, it.destination)
@@ -90,29 +92,27 @@ class DetailStationActivity : AppCompatActivity() {
         val code = intent.getStringExtra("Code")
         runBlocking {
             val favori= Favoris (0, name, code)
+           favorisDao?.addFavoris(favori)
+        }
+    }
+    private  fun deletesFavoris()
+    {
+        val name = intent.getStringExtra("Name")
+        val code = intent.getStringExtra("Code")
+        runBlocking {
+            val favori= Favoris (0, name, code)
+            favorisDao?.deleteAll()
+    }
+    }
+    private  fun deleteFavoris(id:Int)
+    {
+        val name = intent.getStringExtra("Name")
+        val code = intent.getStringExtra("Code")
 
-            val listFavori = favorisDao?.getFavoris()
-            if (listFavori != null) {
-                for(i in listFavori){
-                    val nameFavoris= i.name
-                    val codeFavoris= i.code
+        runBlocking {
+            val favori= Favoris (id, name, code)
+            favorisDao?.deleteFavoris(favori)
 
-                    if ( nameFavoris != name && codeFavoris!= code)
-                    {
-                        favorisDao?.addFavoris(favori)
-                        Log.d("EPF", "Ajout Favori")
-                    }
-                    else
-                    {
-                        Log.d("EPF", "Favori deja existant")
-                    }
-                }
-
-
-            }
-
-
-            Log.d("EPF", "$listFavori")
 
         }
     }
@@ -126,18 +126,53 @@ class DetailStationActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem) : Boolean =
         when(item.itemId){
 
-            //  R.id.action_synchro ->{
-            //      synchroServer(name,code)
-            //      true
-            //  }
+             R.id.action_synchro ->{
+                 deletesFavoris()
+               true
+             }
             // R.id.action_settings ->{
             //      val intent = Intent(this, PreferencesActivity::class.java)
             //      startActivity(intent)
             //       true
             //  }
             R.id.action_favoris ->{
-                sauvegardeFavoris()
+                val name = intent.getStringExtra("Name")
+                val code = intent.getStringExtra("Code")
+                runBlocking {
+                val listFavori = favorisDao?.getFavoris()
+                    Log.d("EPF", "$listFavori")
+                val check = listFavori != null
+                    Log.d("EPF", "$check")
+                if (listFavori != null) {
+                    if (listFavori.size > 0) {
+                        var compteur = 0
+                        for (i in listFavori) {
+                            val nameFavoris = i.name
+                            val codeFavoris = i.code
+
+                            if (name == nameFavoris && code == codeFavoris) {
+
+                                deleteFavoris(i.idFavoris)
+
+                                break
+                            } else {
+                                compteur = compteur + 1
+                                if (compteur == listFavori.size) {
+                                    sauvegardeFavoris()
+
+                                }
+                            }
+                        }
+                        // sauvegardeFavoris()
+                    } else {
+                        sauvegardeFavoris()
+                    }
+
+
+                }
+                }
                 true
+
             }
             // }
             else -> onOptionsItemSelected(item)

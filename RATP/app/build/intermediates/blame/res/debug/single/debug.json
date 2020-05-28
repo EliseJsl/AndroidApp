@@ -76,8 +76,17 @@
         "source": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode.xml.flat",
         "source": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+=======
+        "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode.xml.flat",
+        "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\layout_favori_view.xml.flat",
+        "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\favori_view.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
