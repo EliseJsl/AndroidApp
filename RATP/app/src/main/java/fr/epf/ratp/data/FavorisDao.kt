@@ -14,9 +14,13 @@ interface FavorisDao {
     suspend fun getFavoris() : List<Favoris>
 
     @Insert
-    suspend fun addFavoris(favoris: Favoris)
+    suspend fun addFavoris(favori: Favoris)
 
     @Delete
-    suspend fun deleteFavoris(favoris: Favoris)
+    suspend fun deleteFavoris(favori: Favoris)
+
+
+    @Query("DELETE FROM favoris")
+    suspend fun deleteAll()
 
 }
