@@ -12,11 +12,14 @@
         <activity android:name=".ListLignesActivity" />
         <activity android:name=".DetailStationActivity" />
         <activity android:name=".ListStationsActivity" />
+
         <activity android:name=".AddFavoris" />
+
+        <activity android:name=".QRCodeActivity"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
