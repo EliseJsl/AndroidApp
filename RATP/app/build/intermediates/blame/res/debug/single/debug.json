@@ -76,6 +76,10 @@
         "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\station_view.xml"
     },
     {
+        "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode.xml.flat",
+        "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
         "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\layout_favori_view.xml.flat",
         "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\layout\\favori_view.xml"
     },
