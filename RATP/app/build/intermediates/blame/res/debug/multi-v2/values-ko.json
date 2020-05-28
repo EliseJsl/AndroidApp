@@ -72,28 +72,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-ko\\values-ko.xml",
-=======
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\1feaf21488b23b17ae55bd678484af3e\\jetified-zxing-android-embedded-3.4.0\\res\\values-ko\\values-ko.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,106,153,260",
-                        "endColumns": "50,46,106,71",
-                        "endOffsets": "101,148,255,327"
-                    },
-                    "to": {
-                        "startLines": "59,60,61,62",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5444,5495,5542,5649",
-                        "endColumns": "50,46,106,71",
-                        "endOffsets": "5490,5537,5644,5716"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-ko\\values-ko.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -12,15 +12,8 @@
         <activity android:name=".ListLignesActivity" />
         <activity android:name=".DetailStationActivity" />
         <activity android:name=".ListStationsActivity" />
-
         <activity android:name=".AddFavoris" />
-
         <activity android:name=".QRCodeActivity"/>
-<<<<<<< HEAD
-        <activity android:name=".AddFavoris"/>
-=======
-
->>>>>>> master
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

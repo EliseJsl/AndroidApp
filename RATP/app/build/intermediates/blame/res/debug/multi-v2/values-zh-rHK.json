@@ -72,28 +72,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\e4114ac099ca0db8829a1bf94ca9b4c2\\preference-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\1feaf21488b23b17ae55bd678484af3e\\jetified-zxing-android-embedded-3.4.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,104,151,244",
-                        "endColumns": "48,46,92,69",
-                        "endOffsets": "99,146,239,309"
-                    },
-                    "to": {
-                        "startLines": "59,60,61,62",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5369,5418,5465,5558",
-                        "endColumns": "48,46,92,69",
-                        "endOffsets": "5413,5460,5553,5623"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\a8776343fdac874fa977e09d507079eb\\appcompat-1.1.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

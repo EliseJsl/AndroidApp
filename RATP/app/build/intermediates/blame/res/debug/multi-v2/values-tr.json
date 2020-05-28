@@ -38,11 +38,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\e47066c6eb0e8a67a000b55bc23e2815\\jetified-zxing-android-embedded-3.4.0\\res\\values-tr\\values-tr.xml",
-=======
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\1feaf21488b23b17ae55bd678484af3e\\jetified-zxing-android-embedded-3.4.0\\res\\values-tr\\values-tr.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -57,7 +53,6 @@
                         "endColumns": "60,49,146,119",
                         "endOffsets": "5801,5851,5998,6118"
                     }
-<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\7aa8bf0b940dd05cdca4569dcdc94c9a\\mediarouter-1.0.0\\res\\values-tr\\values-tr.xml",
@@ -92,8 +87,6 @@
                         "endColumns": "70,86,76,131,168,82,77",
                         "endOffsets": "2863,2950,5098,5230,5579,5662,5740"
                     }
-=======
->>>>>>> master
                 }
             ]
         }

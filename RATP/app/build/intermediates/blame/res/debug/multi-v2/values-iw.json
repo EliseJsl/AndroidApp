@@ -21,11 +21,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\e47066c6eb0e8a67a000b55bc23e2815\\jetified-zxing-android-embedded-3.4.0\\res\\values-iw\\values-iw.xml",
-=======
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\1feaf21488b23b17ae55bd678484af3e\\jetified-zxing-android-embedded-3.4.0\\res\\values-iw\\values-iw.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -42,11 +38,7 @@
                     }
                 },
                 {
-<<<<<<< HEAD
                     "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-iw\\values-iw.xml",
-=======
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-iw\\values-iw.xml",
->>>>>>> master
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

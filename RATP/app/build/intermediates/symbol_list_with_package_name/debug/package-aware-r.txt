@@ -1406,11 +1406,8 @@ menu detail_station
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw zxing_beep
-<<<<<<< HEAD
-=======
 string Ajout_favori
 string Delete_favori
->>>>>>> master
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

@@ -11,7 +11,6 @@
 9-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-<<<<<<< HEAD
 11-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:5-67
 11-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
@@ -82,12 +81,12 @@
 45        <activity android:name="fr.epf.ratp.ListStationsActivity" />
 45-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:9-58
 45-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:19-55
-46        <activity android:name="fr.epf.ratp.QRCodeActivity" />
-46-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:9-51
-46-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:19-49
-47        <activity android:name="fr.epf.ratp.AddFavoris" />
-47-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:9-47
-47-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:19-45
+46        <activity android:name="fr.epf.ratp.AddFavoris" />
+46-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:9-48
+46-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:15:19-45
+47        <activity android:name="fr.epf.ratp.QRCodeActivity" />
+47-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:9-51
+47-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:19-49
 48        <activity android:name="fr.epf.ratp.MainActivity" >
 48-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:17:9-22:20
 48-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:17:19-47
@@ -100,101 +99,10 @@
 52                <category android:name="android.intent.category.LAUNCHER" />
 52-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:20:17-77
 52-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:20:27-74
-=======
-11-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:4:22-64
-12    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-12-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:5-65
-12-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:21:22-62
-13    <uses-feature
-13-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:24:5-26:36
-14        android:name="android.hardware.camera"
-14-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:25:9-47
-15        android:required="false" />
-15-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:26:9-33
-16    <uses-feature
-16-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:27:5-29:36
-17        android:name="android.hardware.camera.front"
-17-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:28:9-53
-18        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-18-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:29:9-33
-19    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
-20    <uses-feature
-20-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:32:5-34:36
-21        android:name="android.hardware.camera.autofocus"
-21-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:33:9-57
-22        android:required="false" />
-22-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:34:9-33
-23    <uses-feature
-23-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:35:5-37:36
-24        android:name="android.hardware.camera.flash"
-24-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:36:9-53
-25        android:required="false" />
-25-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:37:9-33
-26    <uses-feature
-26-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:38:5-40:36
-27        android:name="android.hardware.screen.landscape"
-27-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:39:9-57
-28        android:required="false" />
-28-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:40:9-33
-29    <uses-feature
-29-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:41:5-43:36
-30        android:name="android.hardware.wifi"
-30-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:42:9-45
-31        android:required="false" />
-31-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:43:9-33
-32
-33    <application
-33-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:5:5-26:19
-34        android:allowBackup="true"
-34-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:6:9-35
-35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-35-->[androidx.core:core:1.2.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\9075dbfaab39e40f8982b36dac1019b6\core-1.2.0\AndroidManifest.xml:24:18-86
-36        android:debuggable="true"
-37        android:icon="@mipmap/ic_launcher"
-37-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:7:9-43
-38        android:label="@string/app_name"
-38-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:8:9-41
-39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:9:9-54
-40        android:supportsRtl="true"
-40-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-35
-41        android:testOnly="true"
-42        android:theme="@style/AppTheme" >
-42-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:11:9-40
-43        <activity android:name="fr.epf.ratp.ListLignesActivity" />
-43-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:12:9-56
-43-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:12:19-53
-44        <activity android:name="fr.epf.ratp.DetailStationActivity" />
-44-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:13:9-59
-44-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:13:19-56
-45        <activity android:name="fr.epf.ratp.ListStationsActivity" />
-45-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:9-58
-45-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:14:19-55
-46        <activity android:name="fr.epf.ratp.AddFavoris" />
-46-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:9-48
-46-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:16:19-45
-47        <activity android:name="fr.epf.ratp.QRCodeActivity" />
-47-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:18:9-51
-47-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:18:19-49
-48        <activity android:name="fr.epf.ratp.MainActivity" >
-48-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:20:9-25:20
-48-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:20:19-47
-49            <intent-filter>
-49-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:21:13-24:29
-50                <action android:name="android.intent.action.MAIN" />
-50-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:22:17-69
-50-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:22:25-66
-51
-52                <category android:name="android.intent.category.LAUNCHER" />
-52-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:23:17-77
-52-->C:\Users\Evrard-PC\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:23:27-74
->>>>>>> master
 53            </intent-filter>
 54        </activity>
 55
 56        <service
-<<<<<<< HEAD
 56-->[androidx.room:room-runtime:2.2.5] C:\Users\jouss\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
 57            android:name="androidx.room.MultiInstanceInvalidationService"
 57-->[androidx.room:room-runtime:2.2.5] C:\Users\jouss\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
@@ -217,30 +125,6 @@
 66-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\jouss\.gradle\caches\transforms-2\files-2.1\e47066c6eb0e8a67a000b55bc23e2815\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
 67            android:windowSoftInputMode="stateAlwaysHidden" />
 67-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\jouss\.gradle\caches\transforms-2\files-2.1\e47066c6eb0e8a67a000b55bc23e2815\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
-=======
-56-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-57            android:name="androidx.room.MultiInstanceInvalidationService"
-57-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-58            android:directBootAware="true"
-58-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-59            android:exported="false" />
-59-->[androidx.room:room-runtime:2.2.5] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\e9626a52cde72a57878ada1138a21e3c\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-60
-61        <activity
-61-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:46:9-52:63
-62            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-62-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:47:13-74
-63            android:clearTaskOnLaunch="true"
-63-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:48:13-45
-64            android:screenOrientation="sensorLandscape"
-64-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:49:13-56
-65            android:stateNotNeeded="true"
-65-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:50:13-42
-66            android:theme="@style/zxing_CaptureTheme"
-66-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:51:13-54
-67            android:windowSoftInputMode="stateAlwaysHidden" />
-67-->[com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\Evrard-PC\.gradle\caches\transforms-2\files-2.1\1feaf21488b23b17ae55bd678484af3e\jetified-zxing-android-embedded-3.4.0\AndroidManifest.xml:52:13-60
->>>>>>> master
 68    </application>
 69
 70</manifest>
