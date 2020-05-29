@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/AndroidApp-RATP-app.iml" filepath="$PROJECT_DIR$/app/AndroidApp-RATP-app.iml" group="RATP/app" />
       <module fileurl="file://$PROJECT_DIR$/RATP.iml" filepath="$PROJECT_DIR$/RATP.iml" group="RATP" />
       <module fileurl="file://$PROJECT_DIR$/app/RATP-app.iml" filepath="$PROJECT_DIR$/app/RATP-app.iml" group="RATP/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="RATP/app" />
