@@ -13,11 +13,8 @@
         <activity android:name=".DetailStationActivity" />
         <activity android:name=".ListStationsActivity" />
         <activity android:name=".PreferencesActivity" />
-
         <activity android:name=".AddFavoris" />
-
         <activity android:name=".QRCodeActivity"/>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

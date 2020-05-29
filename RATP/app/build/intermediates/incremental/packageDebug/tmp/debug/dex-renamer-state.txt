@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 #Fri May 29 18:55:53 CEST 2020
 base.0=C\:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+=======
+#Thu May 28 16:49:53 CEST 2020
+base.0=C\:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+>>>>>>> master
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
