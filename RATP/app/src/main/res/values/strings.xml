@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">RATP</string>
-    <string name="Ajout_favori">Voulez-vous ajouter cette station en favori?</string>
+    <string name="Ajout_favori">Voulez-vous ajouter cette station à vos favoris?</string>
     <string name="Delete_favori">Voulez-vous supprimer cette station de vos favoris?</string>
 
+    <string-array name="prefs_order_entries">
+        <item>Aller</item>
+        <item>Retour</item>
+    </string-array>
+
+    <string-array name="prefs_order_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
 </resources>

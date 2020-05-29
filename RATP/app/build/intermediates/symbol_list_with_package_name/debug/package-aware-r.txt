@@ -23,6 +23,8 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array prefs_order_entries
+array prefs_order_values
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1081,6 +1083,7 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
+id allerDirection_textview
 id always
 id async
 id barrier
@@ -1208,11 +1211,13 @@ id progress_horizontal
 id qrcode_button
 id radio
 id recycler_view
+id retourDirection_textview
 id right
 id right_icon
 id right_side
+id scheduleA_recyclerview
+id scheduleB_recyclerview
 id schedule_name_textview
-id schedule_recyclerview
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1234,6 +1239,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sousnom
 id spacer
 id spinner
 id split_action_bar

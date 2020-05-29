@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="prefs_order_entries">
+        <item>Aller</item>
+        <item>Retour</item>
+    </string-array>
+    <string-array name="prefs_order_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
@@ -444,7 +452,7 @@
     <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
     <integer name="mr_update_routes_delay_ms">300</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <string name="Ajout_favori">Voulez-vous ajouter cette station en favori?</string>
+    <string name="Ajout_favori">Voulez-vous ajouter cette station à vos favoris?</string>
     <string name="Delete_favori">Voulez-vous supprimer cette station de vos favoris?</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
