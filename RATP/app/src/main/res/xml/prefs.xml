@@ -3,9 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <ListPreference
-        app:key="order_name"
-        app:title="Mode d'affichage des clients dans la liste"
-        app:summary="Ordre d'affichage du nom et du prénom des clients dans la liste"
+        app:key="directions"
+        app:title="Direction"
+        app:summary="Obtenir les horaires des stations en fonctions des deux directions"
+        app:entries="@array/prefs_order_entries"
+        app:entryValues="@array/prefs_order_values"
 
         />
 

@@ -30,6 +30,8 @@ class StationAdapter(val stations: List<Station>, val listener: (Station) -> Uni
     override fun onBindViewHolder(holder: StationViewHolder, position: Int) {
         val station = stations[position]
         holder.stationView.station_name_textview.text = station.name
-        holder.bind(station,listener)
+
+        holder.stationView.sousnom.text = station.slug
+         holder.bind(station,listener)
     }
 }
