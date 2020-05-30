@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
+            "outputFile": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\a8776343fdac874fa977e09d507079eb\\appcompat-1.1.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\a8776343fdac874fa977e09d507079eb\\appcompat-1.1.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\e4114ac099ca0db8829a1bf94ca9b4c2\\preference-1.1.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\e4114ac099ca0db8829a1bf94ca9b4c2\\preference-1.1.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\7aa8bf0b940dd05cdca4569dcdc94c9a\\mediarouter-1.0.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\7aa8bf0b940dd05cdca4569dcdc94c9a\\mediarouter-1.0.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

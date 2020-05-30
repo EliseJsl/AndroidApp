@@ -984,6 +984,22 @@ drawable ic_vol_type_speaker_group_light
 drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
+drawable m1
+drawable m10
+drawable m11
+drawable m12
+drawable m13
+drawable m14
+drawable m2
+drawable m3
+drawable m3bis
+drawable m4
+drawable m5
+drawable m6
+drawable m7
+drawable m7bis
+drawable m8
+drawable m9
 drawable mr_button_connected_dark
 drawable mr_button_connected_light
 drawable mr_button_connecting_dark
@@ -1136,6 +1152,7 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id left
+id ligne_imageview
 id ligne_name_textview
 id lignes_recyclerview
 id line1
@@ -1195,6 +1212,7 @@ id mr_volume_item_icon
 id mr_volume_slider
 id multiply
 id never
+id nomligne_imageView
 id none
 id normal
 id notification_background
@@ -1269,7 +1287,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id time
 id title
 id titleDividerNoCustom
