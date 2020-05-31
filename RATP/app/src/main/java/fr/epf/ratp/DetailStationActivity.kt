@@ -35,28 +35,18 @@ class DetailStationActivity : AppCompatActivity() {
 
         val name = intent.getStringExtra("Name")
         val code = intent.getStringExtra("Code")
-
-
-     //  runBlocking {
-
-
-        //      code_textview.text = "Prochain train dans"
-
-        //  }
-
-
-        synchroServer(name,code)
-
-
+         synchroServer(name,code)
     }
 
 
     override fun onResume() { // refresh
         super.onResume()
         runBlocking {
-            val schedule = scheduleDao?.getSchedule()
-            scheduleA_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())
-            scheduleB_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())// !! veut dire je t'assure ca sera pas null
+            val name = intent.getStringExtra("Name")
+            val code = intent.getStringExtra("Code")
+            synchroServer(name,code)
+          //  scheduleA_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())
+          //  scheduleB_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())// !! veut dire je t'assure ca sera pas null
             // ?: elvis operator : je te renvoie clients et si clients est vide je te renvoie une liste vide
         }
 
@@ -77,7 +67,6 @@ class DetailStationActivity : AppCompatActivity() {
                 service.getStationSchedules("metros", it,
                     it1,"R")
             } }
-
             scheduleDao?.deleteAll()
 
             if (schedulesA != null) {
@@ -85,12 +74,10 @@ class DetailStationActivity : AppCompatActivity() {
                     val schedule = Schedule(0, it.message, it.destination)
                     scheduleDao?.addSchedule(schedule)
                     allerDirection_textview.text = schedule.destination
-
                 }
             }
             val listschedulesA = scheduleDao?.getSchedule()
             scheduleDao?.deleteAll()
-
             if (schedulesR != null) {
                 schedulesR.result.schedules.map{
                     val schedule = Schedule(0, it.message, it.destination)
@@ -150,11 +137,6 @@ class DetailStationActivity : AppCompatActivity() {
                  deletesFavoris()
                true
              }
-            R.id.action_settings ->{
-                 val intent = Intent(this, PreferencesActivity::class.java)
-                  startActivity(intent)
-                   true
-              }
 
 
             R.id.action_favoris ->{

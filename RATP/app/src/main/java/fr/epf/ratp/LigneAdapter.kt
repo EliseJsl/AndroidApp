@@ -36,6 +36,7 @@ class LigneAdapter(val lignes: List<Ligne>, val listener: (Ligne) -> Unit) : Rec
         holder.ligneView.ligne_name_textview.text = ligne.name
 
         holder.bind(ligne,listener)
+
     }
 
 }
