@@ -1982,11 +1982,8 @@ id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
 id never
-<<<<<<< HEAD
 id noScroll
-=======
 id nomligne_imageView
->>>>>>> master
 id none
 id normal
 id notification_background
@@ -2086,16 +2083,12 @@ id text2
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
-<<<<<<< HEAD
 id textStart
-id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
-=======
->>>>>>> master
 id time
 id title
 id titleDividerNoCustom
