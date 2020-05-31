@@ -33,7 +33,7 @@ class ListStationsActivity : AppCompatActivity() {
 
         }
 
-        synchroServer1(code)
+        synchroServer(code)
 
 
 
@@ -51,28 +51,7 @@ class ListStationsActivity : AppCompatActivity() {
     }
 
 
-
     private fun synchroServer(code: String?) {
-        val service = retrofit().create(LignesAPI::class.java)
-        runBlocking {
-            val stations = code?.let { service.getStations("metros", it) }
-
-            Log.d("EPF", "$stations")
-            stationDao?.deleteAll()
-            if (stations != null) {
-                stations.result.stations.map {
-                    val station = Station(0, it.name, it.slug,"","","","")
-                    stationDao?.addStation(station)
-                }
-                val liststations = stationDao?.getStations()
-                stations_recyclerview.adapter = StationAdapter(
-                    liststations ?: emptyList()
-                ) { station: Station -> stationClicked(station, code) }
-            }
-        }
-    }
-
-    private fun synchroServer1(code: String?) {
         val service = retrofit().create(LignesAPI::class.java)
         runBlocking {
             val stations = code?.let { service.getStations("metros", it) }
