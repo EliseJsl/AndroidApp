@@ -1672,6 +1672,22 @@ drawable ic_vol_type_speaker_group_light
 drawable ic_vol_type_speaker_light
 drawable ic_vol_type_tv_dark
 drawable ic_vol_type_tv_light
+drawable m1
+drawable m10
+drawable m11
+drawable m12
+drawable m13
+drawable m14
+drawable m2
+drawable m3
+drawable m3bis
+drawable m4
+drawable m5
+drawable m6
+drawable m7
+drawable m7bis
+drawable m8
+drawable m9
 drawable mr_button_connected_dark
 drawable mr_button_connected_light
 drawable mr_button_connecting_dark
@@ -1875,6 +1891,7 @@ id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
 id left
+id ligne_imageview
 id ligne_name_textview
 id lignes_recyclerview
 id line1
@@ -1965,7 +1982,11 @@ id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation_header_container
 id never
+<<<<<<< HEAD
 id noScroll
+=======
+id nomligne_imageView
+>>>>>>> master
 id none
 id normal
 id notification_background
@@ -2065,6 +2086,7 @@ id text2
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
+<<<<<<< HEAD
 id textStart
 id textView
 id text_input_end_icon
@@ -2072,6 +2094,8 @@ id text_input_start_icon
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+=======
+>>>>>>> master
 id time
 id title
 id titleDividerNoCustom
