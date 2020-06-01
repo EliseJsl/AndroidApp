@@ -2005,6 +2005,7 @@ id parent_matrix
 id password_toggle
 id peekHeight
 id percent
+id picto_imageview
 id pin
 id progress_circular
 id progress_horizontal

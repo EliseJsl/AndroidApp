@@ -11,6 +11,12 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
 
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="8dp"
+            android:id="@+id/picto_imageview" />
+
 
         <TextView
             android:layout_width="wrap_content"
