@@ -55,6 +55,7 @@ class LigneAdapter(val lignes: List<Ligne>, val listener: (Ligne) -> Unit) : Rec
         )
 
         holder.bind(ligne,listener)
+
     }
 
 }

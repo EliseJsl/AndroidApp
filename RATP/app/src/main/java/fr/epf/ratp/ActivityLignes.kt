@@ -34,6 +34,8 @@ fun AppCompatActivity.daoFavoris(): FavorisDao {
     return database.getFavorisDao()
 }
 
+
+
 fun AppCompatActivity.retrofit(): Retrofit {
 
     val httpLoggingInterceptor = HttpLoggingInterceptor().apply {

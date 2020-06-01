@@ -31,7 +31,8 @@ class StationAdapter(val stations: List<Station>, val listener: (Station) -> Uni
         val station = stations[position]
         holder.stationView.station_name_textview.text = station.name
 
-        holder.stationView.sousnom.text = station.slug
-         holder.bind(station,listener)
+        holder.stationView.sousnomAller.text = "Direction ${station.directionAller} : ${station.horaireAller}"
+        holder.stationView.sousnomRetour.text = "Direction ${station.directionRetour} : ${station.horaireRetour}"
+        holder.bind(station,listener)
     }
 }

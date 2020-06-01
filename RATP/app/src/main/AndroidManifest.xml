@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.epf.ratp">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
@@ -12,13 +14,17 @@
         <activity android:name=".ListLignesActivity" />
         <activity android:name=".DetailStationActivity" />
         <activity android:name=".ListStationsActivity" />
-        <activity android:name=".PreferencesActivity" />
         <activity android:name=".AddFavoris" />
+<<<<<<< HEAD
         <activity android:name=".QRCodeActivity"/>
         <activity android:name=".TrafficActivity"/>
+=======
+        <activity android:name=".QRCodeActivity" />
+>>>>>>> master
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
