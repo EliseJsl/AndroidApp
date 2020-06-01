@@ -1871,6 +1871,7 @@ id fitXY
 id fixed
 id forever
 id fragment_container_view_tag
+id fragment_main_item_delete
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2367,6 +2368,7 @@ string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string ligne
 string mr_button_content_description
 string mr_cast_button_connected
 string mr_cast_button_connecting

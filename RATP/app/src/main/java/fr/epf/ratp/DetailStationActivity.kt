@@ -1,22 +1,22 @@
 package fr.epf.ratp
 
-import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.preference.PreferenceManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.epf.ratp.data.FavorisDao
 import fr.epf.ratp.data.ScheduleDao
 import fr.epf.ratp.model.Favoris
 import fr.epf.ratp.model.Schedule
-import fr.epf.ratp.model.Station
 import fr.epf.ratp.service.LignesAPI
 import kotlinx.android.synthetic.main.activity_detail_station.*
 import kotlinx.coroutines.runBlocking
+
 
 class DetailStationActivity : AppCompatActivity() {
     private var scheduleDao : ScheduleDao? = null
@@ -26,7 +26,7 @@ class DetailStationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) { // permet d'afficher la liste
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_station)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         scheduleA_recyclerview.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         scheduleB_recyclerview.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         scheduleDao = daoSchedules()
@@ -36,6 +36,25 @@ class DetailStationActivity : AppCompatActivity() {
         val name = intent.getStringExtra("Name")
         val code = intent.getStringExtra("Code")
          synchroServer(name,code)
+        supportActionBar?.title = name
+
+        if (code == "1") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFFBE00.toInt()))
+        else if (code == "2") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF0055C8.toInt()))
+        else if (code == "3") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF6E6E00.toInt()))
+        else if (code == "3b") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82C8E6.toInt()))
+        else if (code == "4") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFA0006E.toInt()))
+        else if (code == "5") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFF5A00.toInt()))
+        else if (code == "6") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82DC73.toInt()))
+        else if (code == "7") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFF82B4.toInt()))
+        else if (code == "7b") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82DC73.toInt()))
+        else if (code == "8") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFD282BE.toInt()))
+        else if (code == "9") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFD2D200.toInt()))
+        else if (code == "10") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFDC9600.toInt()))
+        else if (code == "11") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF6E491E.toInt()))
+        else if (code == "12") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF00643C.toInt()))
+        else if (code == "13") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82C8E6.toInt()))
+        else supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF640082.toInt()))
+
     }
 
 
@@ -45,9 +64,7 @@ class DetailStationActivity : AppCompatActivity() {
             val name = intent.getStringExtra("Name")
             val code = intent.getStringExtra("Code")
             synchroServer(name,code)
-          //  scheduleA_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())
-          //  scheduleB_recyclerview.adapter = ScheduleAdapter(schedule ?: emptyList())// !! veut dire je t'assure ca sera pas null
-            // ?: elvis operator : je te renvoie clients et si clients est vide je te renvoie une liste vide
+
         }
 
     }
@@ -102,15 +119,8 @@ class DetailStationActivity : AppCompatActivity() {
            favorisDao?.addFavoris(favori)
         }
     }
-    private  fun deletesFavoris()
-    {
-        val name = intent.getStringExtra("Name")
-        val code = intent.getStringExtra("Code")
-        runBlocking {
-            val favori= Favoris (0, name, code)
-            favorisDao?.deleteAll()
-    }
-    }
+
+
     private  fun deleteFavoris(id:Int)
     {
         val name = intent.getStringExtra("Name")
@@ -134,7 +144,7 @@ class DetailStationActivity : AppCompatActivity() {
         when(item.itemId){
 
              R.id.action_synchro ->{
-                 deletesFavoris()
+                 onResume()
                true
              }
 

@@ -21,7 +21,7 @@ class ListLignesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) { // permet d'afficher la liste
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_lignes)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
         lignes_recyclerview.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
@@ -66,6 +66,7 @@ class ListLignesActivity : AppCompatActivity() {
     private fun ligneClicked(ligne: Ligne){
         val intent = Intent(this, ListStationsActivity::class.java).apply{
             putExtra("CodeLigne", ligne.code)
+            putExtra("Code", ligne.directions)
         }
         startActivity(intent)
     }

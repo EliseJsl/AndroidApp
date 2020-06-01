@@ -33,7 +33,7 @@ class LigneAdapter(val lignes: List<Ligne>, val listener: (Ligne) -> Unit) : Rec
 
     override fun onBindViewHolder(holder: LigneViewHolder, position: Int) {
         val ligne = lignes[position]
-        holder.ligneView.ligne_name_textview.text = ligne.name
+        holder.ligneView.ligne_name_textview.text = "${ligne.directions}"
 
         holder.ligneView.ligne_imageview.setImageResource(
             if (ligne.code == "1") R.drawable.m1
