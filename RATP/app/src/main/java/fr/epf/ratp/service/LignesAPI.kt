@@ -16,7 +16,13 @@ interface LignesAPI {
     @GET("schedules/{type}/{code}/{station}/{way}")
     suspend fun getStationSchedules(@Path("type") type: String, @Path("code") code: String,  @Path("station") station: String, @Path("way") way: String) : getStationSchedulesResults
 
+    @GET("traffic/{type}/{code}")
+    suspend fun getTraffic(@Path("type") type: String, @Path("code") code: String) : getTrafficResults
 }
+
+data class getTrafficResults(val result: Traffic = Traffic())
+
+data class Traffic(val line: String = "", val slug: String ="", val title: String = "", val message: String ="")
 
 data class getLignesResults(val result: Metros = Metros())
 

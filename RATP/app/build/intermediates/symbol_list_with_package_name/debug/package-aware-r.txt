@@ -1095,6 +1095,7 @@ id action_mode_close_button
 id action_settings
 id action_synchro
 id action_text
+id action_traffic
 id actions
 id activity_chooser_view_content
 id add
@@ -1293,6 +1294,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id traffic_message_textview
+id traffic_title_textview
 id unchecked
 id uniform
 id up
@@ -1367,6 +1370,7 @@ layout activity_list_stations
 layout activity_main
 layout activity_preferences
 layout activity_qrcode
+layout activity_traffic
 layout custom_dialog
 layout expand_button
 layout favori_view
@@ -1426,6 +1430,7 @@ layout support_simple_spinner_dropdown_item
 layout zxing_barcode_scanner
 layout zxing_capture
 menu detail_station
+menu list_station_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw zxing_beep

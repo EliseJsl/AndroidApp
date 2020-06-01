@@ -46,6 +46,7 @@
         <activity android:name="fr.epf.ratp.PreferencesActivity" />
         <activity android:name="fr.epf.ratp.AddFavoris" />
         <activity android:name="fr.epf.ratp.QRCodeActivity" />
+        <activity android:name="fr.epf.ratp.TrafficActivity" />
         <activity android:name="fr.epf.ratp.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
