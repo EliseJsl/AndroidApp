@@ -1778,6 +1778,7 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action0
+id action_alltraffic
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1790,13 +1791,16 @@ id action_context_bar
 id action_divider
 id action_favoris
 id action_image
+id action_listfavoris
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_qrcode
 id action_synchro
 id action_text
+id action_traffic
 id actions
 id activity_chooser_view_content
 id add
@@ -2097,6 +2101,8 @@ id title_template
 id top
 id topPanel
 id touch_outside
+id traffic_message_textview
+id traffic_title_textview
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -2200,6 +2206,7 @@ layout activity_list_lignes
 layout activity_list_stations
 layout activity_main
 layout activity_qrcode
+layout activity_traffic
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2314,6 +2321,8 @@ layout text_view_without_line_height
 layout zxing_barcode_scanner
 layout zxing_capture
 menu detail_station
+menu list_ligne_menu
+menu list_station_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

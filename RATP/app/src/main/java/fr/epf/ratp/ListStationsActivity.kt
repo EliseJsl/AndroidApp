@@ -1,10 +1,14 @@
 package fr.epf.ratp
 
+import android.app.ProgressDialog.show
 import android.content.Intent
 
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.epf.ratp.data.ScheduleDao
@@ -125,4 +129,45 @@ class ListStationsActivity : AppCompatActivity() {
     }
 
 
-}
+    //menu
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.list_station_menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem)  =
+        when(item.itemId) {
+
+            R.id.action_traffic -> {
+                getTrafficMetro()
+                true
+            }
+            else -> true
+        }
+
+    private fun getTrafficMetro(){
+        var titre = "titre"
+        var message = "RAS"
+        val code = intent.getStringExtra("CodeLigne")
+        val service = retrofit().create(LignesAPI::class.java)
+        runBlocking {
+            val traffics = code?.let { service.getTraffic("metros", it) }
+            Log.d("EPF", "$traffics")
+            if(traffics != null){
+                titre = traffics.result.title
+                message = traffics.result.message
+            }
+        }
+
+        val intent = Intent(this, TrafficActivity::class.java).apply{
+            putExtra("Titre", titre)
+            putExtra("Message", message)
+        }
+        startActivity(intent)
+
+
+
+        }
+    }
+
+

@@ -3,6 +3,8 @@ package fr.epf.ratp
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.epf.ratp.data.LigneDao
@@ -70,5 +72,28 @@ class ListLignesActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+
+    //menu
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.list_ligne_menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem)  =
+        when(item.itemId) {
+
+            R.id.action_qrcode -> {
+                val intent = Intent(this, QRCodeActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.action_listfavoris -> {
+                val intent = Intent(this, AddFavoris::class.java)
+                startActivity(intent)
+                true
+            }
+            else -> true
+        }
 
 }
