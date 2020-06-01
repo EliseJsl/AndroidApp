@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="8pt"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -15,13 +15,20 @@
 
         <TextView
             android:id="@+id/favori_name_textview"
-            android:layout_width="wrap_content"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="8dp"
+            android:layout_marginRight="30dp"
             tools:text="Toto titi" />
+
+        <ImageButton
+            android:id="@+id/fragment_main_item_delete"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+
+            android:background="@android:drawable/ic_delete"/>
 
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

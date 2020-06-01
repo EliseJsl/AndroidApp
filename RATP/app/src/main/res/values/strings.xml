@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">RATP</string>
+    <string name="ligne">Ligne</string>
     <string name="Ajout_favori">Voulez-vous ajouter cette station à vos favoris?</string>
     <string name="Delete_favori">Voulez-vous supprimer cette station de vos favoris?</string>
     <string name="title_activity_main2">Main2Activity</string>

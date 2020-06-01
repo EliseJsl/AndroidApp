@@ -7,9 +7,10 @@
     tools:context=".ListStationsActivity">
 
     <ImageView
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_margin="8dp"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:id="@+id/nomligne_imageView" />
 

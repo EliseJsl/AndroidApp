@@ -2,6 +2,8 @@ package fr.epf.ratp
 
 import android.app.ProgressDialog.show
 import android.content.Intent
+
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -30,6 +32,7 @@ class ListStationsActivity : AppCompatActivity() {
         stationDao = daoStation()
 
         val code = intent.getStringExtra("CodeLigne")
+        val ligne = intent.getStringExtra("Code")
 
         runBlocking {
 
@@ -54,7 +57,24 @@ class ListStationsActivity : AppCompatActivity() {
             )
 
         }
+        supportActionBar?.title=ligne
 
+        if (code == "1") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFFBE00.toInt()))
+        else if (code == "2") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF0055C8.toInt()))
+        else if (code == "3") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF6E6E00.toInt()))
+        else if (code == "3b") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82C8E6.toInt()))
+        else if (code == "4") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFA0006E.toInt()))
+        else if (code == "5") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFF5A00.toInt()))
+        else if (code == "6") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82DC73.toInt()))
+        else if (code == "7") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFF82B4.toInt()))
+        else if (code == "7b") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82DC73.toInt()))
+        else if (code == "8") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFD282BE.toInt()))
+        else if (code == "9") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFD2D200.toInt()))
+        else if (code == "10") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFDC9600.toInt()))
+        else if (code == "11") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF6E491E.toInt()))
+        else if (code == "12") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF00643C.toInt()))
+        else if (code == "13") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82C8E6.toInt()))
+        else supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF640082.toInt()))
         synchroServer(code)
 
 
@@ -128,6 +148,7 @@ class ListStationsActivity : AppCompatActivity() {
     private fun getTrafficMetro(){
         var titre = "titre"
         var message = "RAS"
+
         val code = intent.getStringExtra("CodeLigne")
         val service = retrofit().create(LignesAPI::class.java)
         runBlocking {
@@ -142,6 +163,7 @@ class ListStationsActivity : AppCompatActivity() {
         val intent = Intent(this, TrafficActivity::class.java).apply{
             putExtra("Titre", titre)
             putExtra("Message", message)
+            putExtra("Code",code)
         }
         startActivity(intent)
 
