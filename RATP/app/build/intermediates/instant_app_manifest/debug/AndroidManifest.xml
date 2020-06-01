@@ -36,26 +36,12 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Lignes"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-<<<<<<< HEAD
-        <activity
-            android:name="fr.epf.ratp.ListLignesActivity"
-            android:label="Lignes" />
-        <activity android:name="fr.epf.ratp.DetailStationActivity" />
-        <activity android:name="fr.epf.ratp.ListStationsActivity" />
-        <activity
-            android:name="fr.epf.ratp.AddFavoris"
-            android:label="Favoris" />
-/>
-        <activity android:name="fr.epf.ratp.QRCodeActivity" />
-        <activity android:name="fr.epf.ratp.MainActivity" >
-=======
         <activity android:name="fr.epf.ratp.ListLignesActivity" >
->>>>>>> master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,7 +50,9 @@
         </activity>
         <activity android:name="fr.epf.ratp.DetailStationActivity" />
         <activity android:name="fr.epf.ratp.ListStationsActivity" />
-        <activity android:name="fr.epf.ratp.AddFavoris" />
+        <activity
+            android:name="fr.epf.ratp.AddFavoris"
+            android:label="Favoris" />
         <activity android:name="fr.epf.ratp.QRCodeActivity" />
         <activity android:name="fr.epf.ratp.TrafficActivity" />
         <activity android:name="fr.epf.ratp.MainActivity" />

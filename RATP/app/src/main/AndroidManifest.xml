@@ -19,8 +19,9 @@
         </intent-filter>
         </activity>
         <activity android:name=".DetailStationActivity" />
+        <activity android:name=".ListStationsActivity" />
         <activity android:name=".AddFavoris"
-            android:label="Favoris"/>/>
+            android:label="Favoris"/>
         <activity android:name=".QRCodeActivity"/>
         <activity android:name=".TrafficActivity"/>
         <activity android:name=".MainActivity"/>
