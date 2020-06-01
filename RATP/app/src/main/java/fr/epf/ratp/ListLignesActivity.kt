@@ -92,6 +92,11 @@ class ListLignesActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.action_alltraffic -> {
+                val intent = Intent(this, TrafficAllActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> true
         }
 

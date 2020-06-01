@@ -19,7 +19,14 @@ interface LignesAPI {
     @GET("traffic/{type}/{code}")
     suspend fun getTraffic(@Path("type") type: String, @Path("code") code: String) : getTrafficResults
 
+    @GET("traffic/{type}")
+    suspend fun getAllTraffic(@Path("type") type: String) : getAllTrafficResults
+
 }
+
+data class getAllTrafficResults(val result: Traffics = Traffics())
+
+data class Traffics(val metros: List<Traffic> = emptyList())
 
 data class getTrafficResults(val result: Traffic = Traffic())
 

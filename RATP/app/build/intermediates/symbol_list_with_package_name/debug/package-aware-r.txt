@@ -1907,6 +1907,7 @@ id list_lignes_button
 id masked
 id media_actions
 id message
+id message_textview
 id middle
 id mini
 id month_grid
@@ -2102,6 +2103,7 @@ id topPanel
 id touch_outside
 id traffic_message_textview
 id traffic_title_textview
+id traffics_recyclerview
 id transition_current_scene
 id transition_layout_save
 id transition_position
@@ -2199,6 +2201,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_all_traffic
 layout activity_detail_station
 layout activity_list_favori
 layout activity_list_lignes
@@ -2317,6 +2320,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout traffic_view
 layout zxing_barcode_scanner
 layout zxing_capture
 menu detail_station
