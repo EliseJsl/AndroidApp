@@ -148,6 +148,7 @@ class ListStationsActivity : AppCompatActivity() {
     private fun getTrafficMetro(){
         var titre = "titre"
         var message = "RAS"
+
         val code = intent.getStringExtra("CodeLigne")
         val service = retrofit().create(LignesAPI::class.java)
         runBlocking {
@@ -162,6 +163,7 @@ class ListStationsActivity : AppCompatActivity() {
         val intent = Intent(this, TrafficActivity::class.java).apply{
             putExtra("Titre", titre)
             putExtra("Message", message)
+            putExtra("Code",code)
         }
         startActivity(intent)
 

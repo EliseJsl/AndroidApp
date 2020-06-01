@@ -38,6 +38,30 @@ class DetailStationActivity : AppCompatActivity() {
          synchroServer(name,code)
         supportActionBar?.title = name
 
+        runBlocking {
+
+
+            nomligneDetail_imageView.setImageResource(
+                if (code == "1") R.drawable.m1
+                else if (code == "2") R.drawable.m2
+                else if (code == "3") R.drawable.m3
+                else if (code == "3b") R.drawable.m3bis
+                else if (code == "4") R.drawable.m4
+                else if (code == "5") R.drawable.m5
+                else if (code == "6") R.drawable.m6
+                else if (code == "7") R.drawable.m7
+                else if (code == "7b") R.drawable.m7bis
+                else if (code == "8") R.drawable.m8
+                else if (code == "9") R.drawable.m9
+                else if (code == "10") R.drawable.m10
+                else if (code == "11") R.drawable.m11
+                else if (code == "12") R.drawable.m12
+                else if (code == "13") R.drawable.m13
+                else R.drawable.m14
+            )
+
+        }
+
         if (code == "1") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFFFFBE00.toInt()))
         else if (code == "2") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF0055C8.toInt()))
         else if (code == "3") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF6E6E00.toInt()))

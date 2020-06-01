@@ -1988,7 +1988,9 @@ id nav_host_fragment_container
 id navigation_header_container
 id never
 id noScroll
+id nomligneDetail_imageView
 id nomligne_imageView
+id nomlignef_imageView
 id none
 id normal
 id notification_background
