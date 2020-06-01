@@ -25,6 +25,8 @@ class FavorisAdapter(val favoris: List<Favoris>, val listener: (Favoris) -> Unit
         }
     }
 
+
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FavoriViewHolder{
         val layoutInflater: LayoutInflater = LayoutInflater.from(parent.context)
         val view: View = layoutInflater.inflate(R.layout.favori_view, parent, false)
@@ -34,6 +36,7 @@ class FavorisAdapter(val favoris: List<Favoris>, val listener: (Favoris) -> Unit
     override fun getItemCount(): Int = favoris.size
 
     override fun onBindViewHolder(holder: FavoriViewHolder, position: Int) {
+
         val favori = favoris[position]
         holder.favoriView.favori_name_textview.text = favori.name
         holder.favoriView.fragment_main_item_delete.setOnClickListener {

@@ -12,10 +12,11 @@ import fr.epf.ratp.service.LignesAPI
 import kotlinx.android.synthetic.main.activity_list_favori.*
 
 import kotlinx.coroutines.runBlocking
+import fr.epf.ratp.daoFavoris
 
 class AddFavoris : AppCompatActivity() {
     private var favorisDao : FavorisDao? = null
-
+  
     override fun onCreate(savedInstanceState: Bundle?) { // permet d'afficher la liste
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_favori)

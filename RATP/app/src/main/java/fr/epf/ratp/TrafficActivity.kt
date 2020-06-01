@@ -16,8 +16,8 @@ class TrafficActivity: AppCompatActivity() {
         val message = intent.getStringExtra("Message")
         val code=intent.getStringExtra("Code")
         supportActionBar?.title="Informations traffic"
-        traffic_title_textview.text = "Etat du traffic: ${titre}"
-        traffic_message_textview.text = "Informations complémentaires: ${message}"
+        traffic_title_textview.text = titre
+        traffic_message_textview.text =message
 
         runBlocking {
 
