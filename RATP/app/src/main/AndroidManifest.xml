@@ -25,12 +25,8 @@
         <activity android:name=".QRCodeActivity"/>
         <activity android:name=".TrafficActivity"/>
         <activity android:name=".MainActivity"/>
-<<<<<<< HEAD
         <activity android:name=".TrafficAllActivity"/>
 
-
-=======
->>>>>>> master
     </application>
 
 </manifest>
