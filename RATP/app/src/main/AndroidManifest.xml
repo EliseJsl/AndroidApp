@@ -25,7 +25,8 @@
         <activity android:name=".QRCodeActivity"/>
         <activity android:name=".TrafficActivity"/>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".TrafficAllActivity"/>
+        <activity android:name=".TrafficAllActivity"
+            android:label="Informations trafic"/>
 
     </application>
 

@@ -15,7 +15,8 @@ class TrafficAllActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) { // permet d'afficher la liste
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_all_traffic)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title="Informations trafic"
+
 
         traffics_recyclerview.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)

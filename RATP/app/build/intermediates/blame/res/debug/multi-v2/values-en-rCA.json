@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jouss\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\7aa8bf0b940dd05cdca4569dcdc94c9a\\mediarouter-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,261,369,481,576,659,751,853,949,1045,1139,1231,1338,1446,1530,1612,1694,1792,1891,1977",
-                        "endColumns": "99,105,107,111,94,82,91,101,95,95,93,91,106,107,83,81,81,97,98,85,93",
-                        "endOffsets": "150,256,364,476,571,654,746,848,944,1040,1134,1226,1333,1441,1525,1607,1689,1787,1886,1972,2066"
-                    },
-                    "to": {
-                        "startLines": "30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2851,2951,3057,3165,3277,3372,3455,3547,3649,3745,3841,3935,4027,4134,4242,4326,4408,4490,4588,4687,4773",
-                        "endColumns": "99,105,107,111,94,82,91,101,95,95,93,91,106,107,83,81,81,97,98,85,93",
-                        "endOffsets": "2946,3052,3160,3272,3367,3450,3542,3644,3740,3836,3930,4022,4129,4237,4321,4403,4485,4583,4682,4768,4862"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\e4114ac099ca0db8829a1bf94ca9b4c2\\preference-1.1.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\e4114ac099ca0db8829a1bf94ca9b4c2\\preference-1.1.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\7aa8bf0b940dd05cdca4569dcdc94c9a\\mediarouter-1.0.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,261,369,481,576,659,751,853,949,1045,1139,1231,1338,1446,1530,1612,1694,1792,1891,1977",
+                        "endColumns": "99,105,107,111,94,82,91,101,95,95,93,91,106,107,83,81,81,97,98,85,93",
+                        "endOffsets": "150,256,364,476,571,654,746,848,944,1040,1134,1226,1333,1441,1525,1607,1689,1787,1886,1972,2066"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2851,2951,3057,3165,3277,3372,3455,3547,3649,3745,3841,3935,4027,4134,4242,4326,4408,4490,4588,4687,4773",
+                        "endColumns": "99,105,107,111,94,82,91,101,95,95,93,91,106,107,83,81,81,97,98,85,93",
+                        "endOffsets": "2946,3052,3160,3272,3367,3450,3542,3644,3740,3836,3930,4022,4129,4237,4321,4403,4485,4583,4682,4768,4862"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\9075dbfaab39e40f8982b36dac1019b6\\core-1.2.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jouss\\.gradle\\caches\\transforms-2\\files-2.1\\a8776343fdac874fa977e09d507079eb\\appcompat-1.1.0\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "source": "C:\\Users\\Evrard-PC\\.gradle\\caches\\transforms-2\\files-2.1\\a8776343fdac874fa977e09d507079eb\\appcompat-1.1.0\\res\\values-en-rCA\\values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

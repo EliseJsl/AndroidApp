@@ -12,8 +12,8 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_margin="8dp"
             android:id="@+id/picto_imageview" />
 
