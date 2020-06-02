@@ -29,7 +29,10 @@ class AddFavoris : AppCompatActivity() {
         runBlocking{
 
         val liststations = favorisDao?.getFavoris()
-        favori_recyclerview.adapter = FavorisAdapter(liststations ?: emptyList()) { favoris : Favoris -> stationClicked(favoris) }
+        favori_recyclerview.adapter = FavorisAdapter(
+                liststations ?: emptyList(),
+                {favoris : Favoris -> stationClicked(favoris)},
+                {favoris : Favoris -> deleteFavoris(favoris)})
 
         }
 
@@ -40,7 +43,10 @@ class AddFavoris : AppCompatActivity() {
         super.onResume()
         runBlocking {
             val favoris = favorisDao?.getFavoris()
-            favori_recyclerview.adapter = FavorisAdapter(favoris ?: emptyList()) { favoris : Favoris -> stationClicked(favoris) } // !! veut dire je t'assure ca sera pas null
+            favori_recyclerview.adapter = FavorisAdapter(
+                favoris ?: emptyList(),
+                {favoris : Favoris -> stationClicked(favoris)},
+                {favoris : Favoris -> deleteFavoris(favoris)})  // !! veut dire je t'assure ca sera pas null
             // ?: elvis operator : je te renvoie clients et si clients est vide je te renvoie une liste vide
         }
 
@@ -52,6 +58,13 @@ class AddFavoris : AppCompatActivity() {
             putExtra("Code", favoris.code)
         }
         startActivity(intent)
+    }
+
+    private fun deleteFavoris(favoris: Favoris){
+        runBlocking {
+            favorisDao?.deleteFavoris(favoris)
+            onResume()
+        }
     }
 
 
