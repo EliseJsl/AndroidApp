@@ -18,14 +18,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailStationActivity" />
-        <activity android:name=".ListStationsActivity" />
+        <activity android:name=".DetailStationActivity"
+            android:parentActivityName="fr.epf.ratp.ListStationsActivity">
+        </activity>
+
+        <activity android:name=".ListStationsActivity"
+            android:parentActivityName=".ListLignesActivity">
+        </activity>
+
         <activity android:name=".AddFavoris"
-            android:label="Favoris"/>
+            android:label="Favoris"
+            android:parentActivityName=".ListLignesActivity">
+        </activity>
+
         <activity android:name=".QRCodeActivity"/>
-        <activity android:name=".TrafficActivity"/>
+        <activity android:name=".TrafficActivity"
+            android:parentActivityName=".ListStationsActivity">
+        </activity>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".TrafficAllActivity"/>
+        <activity android:name=".TrafficAllActivity"
+            android:parentActivityName=".ListLignesActivity">
+
+        </activity>
 
     </application>
 

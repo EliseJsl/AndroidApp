@@ -25,6 +25,7 @@ class ListLignesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_lignes)
 
+        myprogressbar.visibility=View.INVISIBLE
 
         lignes_recyclerview.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
@@ -59,7 +60,9 @@ class ListLignesActivity : AppCompatActivity() {
                 ligneDao?.addLigne(ligne)
             }
             val listlignes = ligneDao?.getLignes()
-            lignes_recyclerview.adapter = LigneAdapter(listlignes ?: emptyList()) { ligne : Ligne -> ligneClicked(ligne) }
+            lignes_recyclerview.adapter = LigneAdapter(listlignes ?: emptyList())
+            { ligne : Ligne -> ligneClicked(ligne)
+            }
 
         }
 
@@ -71,8 +74,11 @@ class ListLignesActivity : AppCompatActivity() {
             putExtra("CodeLigne", ligne.code)
             putExtra("Code", ligne.directions)
             myprogressbar.visibility= View.VISIBLE
+
+
         }
         startActivity(intent)
+
     }
 
 

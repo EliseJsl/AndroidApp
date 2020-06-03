@@ -314,6 +314,7 @@ attr drawableTint
 attr drawableTintMode
 attr drawableTopCompat
 attr drawerArrowStyle
+attr drawerLayoutStyle
 attr dropDownListViewStyle
 attr dropdownListPreferredItemHeight
 attr dropdownPreferenceStyle
@@ -388,6 +389,8 @@ attr fragment
 attr gapBetweenBars
 attr goIcon
 attr graph
+attr graphPackage
+attr graphResName
 attr headerLayout
 attr height
 attr helperText
@@ -575,8 +578,10 @@ attr mediaRouteStopDrawable
 attr mediaRouteTheme
 attr mediaRouteTvIconDrawable
 attr menu
+attr mimeType
 attr min
 attr minTouchTargetSize
+attr moduleName
 attr multiChoiceItemLayout
 attr navGraph
 attr navigationContentDescription
@@ -625,6 +630,7 @@ attr preserveIconSpacing
 attr pressedTranslationZ
 attr progressBarPadding
 attr progressBarStyle
+attr progressDestination
 attr queryBackground
 attr queryHint
 attr radioButtonStyle
@@ -857,6 +863,8 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color androidx_core_ripple_material_light
+color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1127,6 +1135,7 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen def_drawer_elevation
 dimen default_dimension
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
@@ -1848,6 +1857,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dfn_progress_fragment
 id dialog_button
 id dimensions
 id direct
@@ -1890,6 +1900,7 @@ id icon_group
 id ifRoom
 id image
 id info
+id installation_progress
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -2011,8 +2022,11 @@ id peekHeight
 id percent
 id picto_imageview
 id pin
+id progress_action
 id progress_circular
 id progress_horizontal
+id progress_icon
+id progress_title
 id qrcode_button
 id radio
 id recycler_view
@@ -2230,6 +2244,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dynamic_feature_install_fragment
 layout expand_button
 layout favori_view
 layout image_frame
@@ -2385,6 +2400,9 @@ string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string installation_cancelled
+string installation_failed
+string installing_module
 string ligne
 string mr_button_content_description
 string mr_cast_button_connected
@@ -2448,6 +2466,7 @@ string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string next
 string not_set
+string ok
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2455,6 +2474,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string preference_copied
 string previous
+string progress
+string retry
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
@@ -2960,6 +2981,7 @@ style Theme_MediaRouter
 style Theme_MediaRouter_Light
 style Theme_MediaRouter_Light_DarkControlPanel
 style Theme_MediaRouter_LightControlPanel
+style Theme_PlayCore_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -3229,6 +3251,11 @@ styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_a
 styleable DialogFragmentNavigator android_name
 styleable DialogPreference android_dialogTitle android_dialogMessage android_dialogIcon android_positiveButtonText android_negativeButtonText android_dialogLayout dialogIcon dialogLayout dialogMessage dialogTitle negativeButtonText positiveButtonText
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
+styleable DrawerLayout elevation
+styleable DynamicActivityNavigator moduleName
+styleable DynamicFragmentNavigator moduleName
+styleable DynamicGraphNavigator moduleName progressDestination
+styleable DynamicIncludeGraphNavigator graphPackage graphResName moduleName
 styleable EditTextPreference useSimpleSummaryProvider
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
@@ -3267,7 +3294,7 @@ styleable MenuView android_windowAnimationStyle android_itemTextAppearance andro
 styleable MultiSelectListPreference android_entries android_entryValues entries entryValues
 styleable NavAction android_id destination enterAnim exitAnim launchSingleTop popEnterAnim popExitAnim popUpTo popUpToInclusive
 styleable NavArgument android_name android_defaultValue argType nullable
-styleable NavDeepLink android_autoVerify uri
+styleable NavDeepLink android_autoVerify action mimeType uri
 styleable NavGraphNavigator startDestination
 styleable NavHost navGraph
 styleable NavHostFragment defaultNavHost

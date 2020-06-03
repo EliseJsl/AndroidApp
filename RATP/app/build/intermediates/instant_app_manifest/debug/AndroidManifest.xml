@@ -29,7 +29,9 @@
         android:required="false" />
     <uses-feature
         android:name="android.hardware.wifi"
-        android:required="false" />
+        android:required="false" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="false"
@@ -48,15 +50,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="fr.epf.ratp.DetailStationActivity" />
-        <activity android:name="fr.epf.ratp.ListStationsActivity" />
+        <activity
+            android:name="fr.epf.ratp.DetailStationActivity"
+            android:parentActivityName="fr.epf.ratp.ListStationsActivity" >
+        </activity>
+        <activity
+            android:name="fr.epf.ratp.ListStationsActivity"
+            android:parentActivityName="fr.epf.ratp.ListLignesActivity" >
+        </activity>
         <activity
             android:name="fr.epf.ratp.AddFavoris"
-            android:label="Favoris" />
+            android:label="Favoris"
+            android:parentActivityName="fr.epf.ratp.ListLignesActivity" >
+        </activity>
         <activity android:name="fr.epf.ratp.QRCodeActivity" />
-        <activity android:name="fr.epf.ratp.TrafficActivity" />
+        <activity
+            android:name="fr.epf.ratp.TrafficActivity"
+            android:parentActivityName="fr.epf.ratp.ListStationsActivity" >
+        </activity>
         <activity android:name="fr.epf.ratp.MainActivity" />
-        <activity android:name="fr.epf.ratp.TrafficAllActivity" />
+        <activity
+            android:name="fr.epf.ratp.TrafficAllActivity"
+            android:parentActivityName="fr.epf.ratp.ListLignesActivity" >
+        </activity>
 
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
@@ -69,7 +85,24 @@
             android:screenOrientation="sensorLandscape"
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
-            android:windowSoftInputMode="stateAlwaysHidden" />
+            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true" />
+        <activity
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true" />
     </application>
 
 </manifest>
