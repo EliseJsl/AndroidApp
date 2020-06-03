@@ -13,9 +13,15 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="93dp">
 
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:id="@+id/picto_imageview" />
+
         <TextView
             android:id="@+id/favori_name_textview"
-            android:layout_width="270dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="30dp"
@@ -25,7 +31,7 @@
             android:id="@+id/fragment_main_item_delete"
             android:layout_width="30dip"
             android:layout_height="30dip"
-
+            android:layout_gravity="center_vertical"
             android:background="@android:drawable/ic_delete"/>
 
     </LinearLayout>
