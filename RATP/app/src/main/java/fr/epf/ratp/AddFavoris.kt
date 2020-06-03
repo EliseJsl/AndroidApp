@@ -24,7 +24,7 @@ class AddFavoris : AppCompatActivity() {
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         favorisDao = daoFavoris()
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
         val code = intent.getStringExtra("CodeLigne")
         runBlocking{
 

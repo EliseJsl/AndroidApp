@@ -78,7 +78,7 @@ class DetailStationActivity : AppCompatActivity() {
         else if (code == "12") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF00643C.toInt()))
         else if (code == "13") supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF82C8E6.toInt()))
         else supportActionBar?.setBackgroundDrawable(ColorDrawable(0xFF640082.toInt()))
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
     }
 
 

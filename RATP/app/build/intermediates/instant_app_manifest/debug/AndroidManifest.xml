@@ -38,12 +38,14 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Lignes"
+        android:label="RATP"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="fr.epf.ratp.ListLignesActivity" >
+        <activity
+            android:name="fr.epf.ratp.ListLignesActivity"
+            android:label="Lignes" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
