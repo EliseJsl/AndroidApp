@@ -15,6 +15,10 @@ interface LigneDao {
         @Insert
         suspend fun addLigne(ligne: Ligne)
 
+
+        @Delete
+        suspend fun deleteStation(ligne: Ligne)
+
         @Query("DELETE FROM lignes")
         suspend fun deleteAll()
 
