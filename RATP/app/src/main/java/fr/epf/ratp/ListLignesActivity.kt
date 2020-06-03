@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import fr.epf.ratp.data.LigneDao
@@ -69,6 +70,7 @@ class ListLignesActivity : AppCompatActivity() {
         val intent = Intent(this, ListStationsActivity::class.java).apply{
             putExtra("CodeLigne", ligne.code)
             putExtra("Code", ligne.directions)
+            myprogressbar.visibility= View.VISIBLE
         }
         startActivity(intent)
     }

@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ListLignesActivity">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".DetailStationActivity" />
         <activity android:name=".ListStationsActivity" />
@@ -25,8 +25,7 @@
         <activity android:name=".QRCodeActivity"/>
         <activity android:name=".TrafficActivity"/>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".TrafficAllActivity"
-            android:label="Informations trafic"/>
+        <activity android:name=".TrafficAllActivity"/>
 
     </application>
 

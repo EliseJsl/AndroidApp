@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Evrard-PC\\AndroidStudioProjects\\AndroidApp\\RATP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
