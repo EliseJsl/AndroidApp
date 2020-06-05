@@ -110,7 +110,7 @@ MERGED from [com.google.android.play:core:1.7.2] C:\Users\jouss\.gradle\caches\t
 	android:supportsRtl
 		ADDED from C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-31
+		ADDED from C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-29
 	android:roundIcon
 		ADDED from C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon

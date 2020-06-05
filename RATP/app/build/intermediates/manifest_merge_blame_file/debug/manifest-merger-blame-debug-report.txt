@@ -67,8 +67,8 @@
 38        android:debuggable="true"
 39        android:icon="@mipmap/ic_launcher"
 39-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:9:9-43
-40        android:label="Lignes"
-40-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-31
+40        android:label="RATP"
+40-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:10:9-29
 41        android:roundIcon="@mipmap/ic_launcher_round"
 41-->C:\Users\jouss\AndroidStudioProjects\AndroidApp\RATP\app\src\main\AndroidManifest.xml:11:9-54
 42        android:supportsRtl="true"

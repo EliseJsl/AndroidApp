@@ -8,4 +8,11 @@
         android:title="Traffic"
         app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/action_qrcode"
+        android:title="Scanner QRCode" />
+    <item
+        android:id="@+id/action_listfavoris"
+        android:title="Mes favoris" />
+
 </menu>

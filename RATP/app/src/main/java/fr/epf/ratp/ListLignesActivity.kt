@@ -59,7 +59,13 @@ class ListLignesActivity : AppCompatActivity() {
                 val ligne = Ligne(0, it.code, it.name, it.directions, it.id)
                 ligneDao?.addLigne(ligne)
             }
-            val listlignes = ligneDao?.getLignes()
+            var listlignes = ligneDao?.getLignes()
+            val n = listlignes?.size
+            if (n != null) {
+                listlignes?.get(n-1)?.let { ligneDao?.deleteLigne(it) }
+                listlignes?.get(n-2)?.let { ligneDao?.deleteLigne(it) }
+            }
+            listlignes = ligneDao?.getLignes()
             lignes_recyclerview.adapter = LigneAdapter(listlignes ?: emptyList())
             { ligne : Ligne -> ligneClicked(ligne)
             }

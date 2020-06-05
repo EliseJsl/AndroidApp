@@ -143,6 +143,17 @@ class ListStationsActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem)  =
         when(item.itemId) {
 
+            R.id.action_qrcode -> {
+                val intent = Intent(this, QRCodeActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.action_listfavoris -> {
+                val intent = Intent(this, AddFavoris::class.java)
+                startActivity(intent)
+                true
+            }
+
             R.id.action_traffic -> {
                 getTrafficMetro()
                 true
