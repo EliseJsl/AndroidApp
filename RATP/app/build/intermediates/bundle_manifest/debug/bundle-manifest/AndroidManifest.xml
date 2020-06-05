@@ -42,7 +42,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="fr.epf.ratp.ListLignesActivity" >
+        <activity
+            android:name="fr.epf.ratp.ListLignesActivity"
+            android:label="Lignes" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

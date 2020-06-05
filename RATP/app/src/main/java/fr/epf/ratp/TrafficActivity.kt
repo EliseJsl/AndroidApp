@@ -18,7 +18,7 @@ class TrafficActivity: AppCompatActivity() {
         supportActionBar?.title="Informations trafic"
         traffic_title_textview.text = titre
         traffic_message_textview.text =message
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
         runBlocking {
 
 

@@ -25,7 +25,7 @@ class ListLignesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_lignes)
 
-        myprogressbar.visibility=View.INVISIBLE
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         lignes_recyclerview.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
@@ -39,6 +39,7 @@ class ListLignesActivity : AppCompatActivity() {
 
     override fun onResume() { // refresh
         super.onResume()
+        myprogressbar.visibility=View.INVISIBLE
         runBlocking {
             val lignes = ligneDao?.getLignes()
             lignes_recyclerview.adapter = LigneAdapter(lignes ?: emptyList()) { ligne : Ligne -> ligneClicked(ligne) } // !! veut dire je t'assure ca sera pas null
@@ -68,6 +69,7 @@ class ListLignesActivity : AppCompatActivity() {
             listlignes = ligneDao?.getLignes()
             lignes_recyclerview.adapter = LigneAdapter(listlignes ?: emptyList())
             { ligne : Ligne -> ligneClicked(ligne)
+                myprogressbar.visibility= View.VISIBLE
             }
 
         }

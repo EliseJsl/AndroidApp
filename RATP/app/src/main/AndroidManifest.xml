@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ListLignesActivity">
+        <activity android:name=".ListLignesActivity"
+            android:label="Lignes">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

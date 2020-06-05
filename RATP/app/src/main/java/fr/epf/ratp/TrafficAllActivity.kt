@@ -16,7 +16,7 @@ class TrafficAllActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_all_traffic)
         supportActionBar?.title="Informations trafic"
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
         traffics_recyclerview.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
