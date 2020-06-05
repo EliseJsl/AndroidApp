@@ -44,7 +44,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="fr.epf.ratp.ListLignesActivity"
-            android:label="Lignes" >
+            android:label="RATP" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
