@@ -22,4 +22,7 @@ interface LigneDao {
         @Query("DELETE FROM lignes")
         suspend fun deleteAll()
 
+        @Delete
+        suspend fun deleteLigne(ligne: Ligne)
+
 }
